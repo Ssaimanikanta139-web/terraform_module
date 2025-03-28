@@ -1,5 +1,5 @@
 module "Dev" {
-  source = "github.com/Ssaimanikanta139-web/terraform_module.git"
+  source = "https://github.com/Ssaimanikanta139-web/terraform_azure_provider_source.git"
 
   azurerm_resource_group_name = "sai-terr-Dev-rg"
 
@@ -23,7 +23,7 @@ module "Dev" {
 }
 
 module "Qa" {
-  source = "github.com/Ssaimanikanta139-web/terraform_module.git"
+  source = "https://github.com/Ssaimanikanta139-web/terraform_azure_provider_source.git"
 
   azurerm_resource_group_name = "sai-terr-Qa-rg"
 
@@ -47,7 +47,7 @@ module "Qa" {
 }
 
 module "uat" {
-  source = "github.com/Ssaimanikanta139-web/terraform_module.git"
+  source = "https://github.com/Ssaimanikanta139-web/terraform_azure_provider_source.git"
 
   azurerm_resource_group_name = "sai-terr-uat-rg"
 
@@ -71,7 +71,7 @@ module "uat" {
 }
 
 module "prod" {
-  source = "github.com/Ssaimanikanta139-web/terraform_module.git"
+  source = "https://github.com/Ssaimanikanta139-web/terraform_azure_provider_source.git"
 
   azurerm_resource_group_name = "sai-terr-prod-rg"
 
